@@ -1,7 +1,8 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    /* ... */
+    static: '/',
+    src: '/dist',
   },
   plugins: [
     /* ... */
