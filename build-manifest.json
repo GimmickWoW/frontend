@@ -50,10 +50,10 @@
       "entryPoint": "index.css",
       "inputs": {
         "index.css": {
-          "bytesInOutput": 28
+          "bytesInOutput": 36
         }
       },
-      "bytes": 29
+      "bytes": 52
     },
     "../~~bundle~~/dist/index.js": {
       "imports": [],
@@ -61,19 +61,19 @@
       "entryPoint": "dist/index.js",
       "inputs": {
         "_snowpack/pkg/common/index-e66f0a38.js": {
-          "bytesInOutput": 7148
+          "bytesInOutput": 11045
         },
         "_snowpack/pkg/react.js": {
           "bytesInOutput": 0
         },
         "_snowpack/pkg/react-dom.js": {
-          "bytesInOutput": 123813
+          "bytesInOutput": 188736
         },
         "dist/index.js": {
-          "bytesInOutput": 118
+          "bytesInOutput": 177
         }
       },
-      "bytes": 131131
+      "bytes": 200049
     }
   }
 }
