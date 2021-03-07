@@ -1,11 +1,12 @@
-import { ThemeProvider } from '@chakra-ui/react';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { ThemeProvider } from '@chakra-ui/react';
+import Navigation from './nav';
 
 ReactDOM.render(
     <>
         <ThemeProvider>
-            <h1>Hello, Gimmick!</h1>
+            <Navigation />
         </ThemeProvider>
     </>,
     document.getElementById('root')
