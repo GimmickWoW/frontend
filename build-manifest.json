@@ -4,19 +4,19 @@
       "bytes": 63,
       "imports": []
     },
-    "_snowpack/pkg/common/index-e66f0a38.js": {
-      "bytes": 8994,
+    "_snowpack/pkg/common/index-df124c49.js": {
+      "bytes": 9209,
       "imports": []
     },
     "_snowpack/pkg/react.js": {
       "bytes": 116,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "path": "_snowpack/pkg/common/index-df124c49.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "path": "_snowpack/pkg/common/index-df124c49.js",
           "kind": "import-statement"
         }
       ]
@@ -25,13 +25,112 @@
       "bytes": 127469,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "path": "_snowpack/pkg/common/index-df124c49.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/hoist-non-react-statics.cjs-0d987a3b.js": {
+      "bytes": 4148,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-df124c49.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@chakra-ui/react.js": {
+      "bytes": 154456,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-df124c49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/hoist-non-react-statics.cjs-0d987a3b.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-router-dom.js": {
+      "bytes": 65568,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-df124c49.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/hoist-non-react-statics.cjs-0d987a3b.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/views/landing.js": {
+      "bytes": 292,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@chakra-ui/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/views/error-404.js": {
+      "bytes": 404,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@chakra-ui/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/nav/def.js": {
+      "bytes": 496,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/views/landing.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/views/error-404.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/nav/index.js": {
+      "bytes": 306,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/nav/def.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/index.js": {
-      "bytes": 269,
+      "bytes": 432,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -39,6 +138,14 @@
         },
         {
           "path": "_snowpack/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@chakra-ui/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/nav/index.js",
           "kind": "import-statement"
         }
       ]
@@ -60,20 +167,41 @@
       "exports": [],
       "entryPoint": "dist/index.js",
       "inputs": {
-        "_snowpack/pkg/common/index-e66f0a38.js": {
-          "bytesInOutput": 11045
+        "_snowpack/pkg/common/index-df124c49.js": {
+          "bytesInOutput": 11710
         },
         "_snowpack/pkg/react.js": {
           "bytesInOutput": 0
         },
         "_snowpack/pkg/react-dom.js": {
-          "bytesInOutput": 188736
+          "bytesInOutput": 197993
+        },
+        "_snowpack/pkg/common/hoist-non-react-statics.cjs-0d987a3b.js": {
+          "bytesInOutput": 4621
+        },
+        "_snowpack/pkg/@chakra-ui/react.js": {
+          "bytesInOutput": 117803
+        },
+        "_snowpack/pkg/react-router-dom.js": {
+          "bytesInOutput": 54505
+        },
+        "dist/views/landing.js": {
+          "bytesInOutput": 162
+        },
+        "dist/views/error-404.js": {
+          "bytesInOutput": 268
+        },
+        "dist/nav/def.js": {
+          "bytesInOutput": 263
+        },
+        "dist/nav/index.js": {
+          "bytesInOutput": 134
         },
         "dist/index.js": {
-          "bytesInOutput": 177
+          "bytesInOutput": 225
         }
       },
-      "bytes": 200049
+      "bytes": 388012
     }
   }
 }
