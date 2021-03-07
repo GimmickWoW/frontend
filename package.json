@@ -1,5 +1,5 @@
 {
-  "homepage": "https://gimmickwow.github.io/frontend",
+  "homepage": "https://gimmick.toast.ws",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
